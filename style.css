@@ -62,7 +62,6 @@ body {
   font-family: "BPG LE Studio 04 Caps", sans-serif;
   font-size: 14px;
   margin: 10px;
-  display: none;
 }
 
 .menu-items {
@@ -828,7 +827,5 @@ button:focus {
 
   }
 
-  .navbar li a {
-    display: block;
-  }
+ 
 }
