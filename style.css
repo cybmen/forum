@@ -651,6 +651,8 @@ button:focus {
   .navbar {
     width: 100%;
     height: 90px;
+    background-color: #050505;
+
   }
 
   .nav-container {
