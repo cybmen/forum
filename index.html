@@ -4,12 +4,18 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
   <link rel="icon" type="image/png" sizes="16x16" href="assets/img/logo hd.svg">
   <link rel="shortcut icon" href="assets/img/logo hd.svg">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="animation.css">
-  <script src="main.js"></script>
+
+  <link rel="stylesheet" href="assets/js/bootstrap.min.css">
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/globe.min.js"></script>
+  <script src="assets/js/app.js" defer></script>
+  <script src="assets/main.js"></script>
+  <script src="app.js"></script>
 
   <title>UTM COMMUNITY Powered by TAO TECHNOLOGY</title>
 </head>
@@ -64,11 +70,13 @@
   </div>
 
   <div class="right-side">
-    <img src="assets/img/background.svg" alt="TAO_main" class="main-img">
-  </div>
+    <div id="globe" class="earth-container earth-ready">
+      <canvas width="641" height="625"></canvas>
+      <div id="glow"></div>  </div>
 </div>
 
 <img src="assets/img/front-image.png" alt="front-image" class="front-image">
+
 
 
 </body>

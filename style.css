@@ -107,7 +107,7 @@ input[type="checkbox"i] {
 }
 
 .right-side {
-  width: 30%;
+  width: 50%;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -627,6 +627,73 @@ button:focus {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#globe {
+	width: 570px;
+	height: 570px;
+	max-height: 100vw;
+	overflow: hidden;
+
+	opacity: 0;
+	transition: opacity 1.5s ease-in;
+}
+
+
+#globe > canvas {
+    display: block;
+    
+    /* width: 801.25px; */
+    /* height: 781.25px;s */
+}
+
+#globe.earth-ready {
+	opacity: 1;
+}
+
+#globe::before {
+	content: none;
+}
+
+#glow {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100%;
+	max-width: 570px;
+	height: 100vh;
+	max-height: 570px;
+	transform: translate(-50%, -50%);
+	z-index: 200;
+	pointer-events: none;
+}
+
+
+
+
+
+
+
 /* responsive */
 
 @media only screen and (max-width: 800px) {
@@ -826,6 +893,7 @@ button:focus {
     margin-top: 50px;
 
   }
+
 
  .main-button {
   font-size: 22px;
