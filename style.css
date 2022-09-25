@@ -914,6 +914,7 @@ button:focus {
   border: none;
 
 }
+
 }
 
 
@@ -930,7 +931,9 @@ button:focus {
     display: none;
   }
 
-
+  .navbar {
+    background-color: #050505;
+  }
   
   .main {
     width: 100%;
@@ -956,10 +959,6 @@ button:focus {
 
   .main-text {
     width: 100%;
-    padding: 20px 50px;
-  }
-	
-.navbar {
-    background-color: #050505;
+    padding: 20px 10px;
   }
 }
