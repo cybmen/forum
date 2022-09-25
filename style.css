@@ -915,3 +915,47 @@ button:focus {
 
 }
 }
+
+
+@media only screen and (max-width: 1172px) {
+
+  body {
+    background-color: #050505;
+    font-family: monospace;
+    border: none;
+  
+  }
+
+  .front-image {
+    display: none;
+  }
+
+
+  
+  .main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-img {
+    width: 50%;
+    display: flex;
+  }
+
+  .right-side {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .left-side {
+    width: 100%;
+    padding: 30px;
+ 
+  }
+
+  .main-text {
+    width: 100%;
+    padding: 20px 50px;
+  }
+}
