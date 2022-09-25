@@ -7,6 +7,14 @@
 body {
   background-color: #050505;
   font-family: monospace;
+  border: 5px solid #4BAA6C;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+  height: 100vh;
+  display: block;
+  margin: 0 auto;
+
 }
 
 /* navbar start */
@@ -81,7 +89,7 @@ input[type="checkbox"i] {
 
 .main {
   display: flex;
-  height: 100vh;
+  height: 99vh;
 }
 
 .left-side {
@@ -133,7 +141,7 @@ input[type="checkbox"i] {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: 5px;
   margin: auto;
 }
 
@@ -896,8 +904,14 @@ button:focus {
 
   }
 
-
  .main-button {
   font-size: 22px;
  }
+
+ body {
+  background-color: #050505;
+  font-family: monospace;
+  border: none;
+
+}
 }
