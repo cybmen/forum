@@ -97,10 +97,10 @@ $(document).ready(() => {
         globe = new Earth('globe', {
             location : { lat: 20, lng : 20 },
             light: 'none',
-            mapImage: 'assets/img/hologram.svg',
+            mapImage: 'assets/img/h.svg',
             transparent: true,
             autoRotate : true,
-            autoRotateSpeed: 1.2,
+            autoRotateSpeed: 2.5,
             autoRotateDelay: 100,
             autoRotateStart: 2000,			
         });
