@@ -42,11 +42,12 @@ body {
   padding: 10px 20px;
   text-decoration: none;
   font-size: 16px;
+  color: #4BAA6C;
 
 }
 
 .navbar a:hover {
-  color: #4BAA6C;
+text-decoration: underline;
 }
 
 .active {
@@ -93,6 +94,7 @@ input[type="checkbox"i] {
 
 .main-text {
   width: 400px;
+  color: #4BAA6C;
 }
 
 .left-side h1 span {
