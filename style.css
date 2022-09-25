@@ -958,4 +958,8 @@ button:focus {
     width: 100%;
     padding: 20px 50px;
   }
+	
+.navbar {
+    background-color: #050505;
+  }
 }
